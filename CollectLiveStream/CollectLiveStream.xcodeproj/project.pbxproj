@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81B9856F1F3B30C50043716E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9856E1F3B30C50043716E /* main.m */; };
+		81B985721F3B30C50043716E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B985711F3B30C50043716E /* AppDelegate.m */; };
+		81B985751F3B30C50043716E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B985741F3B30C50043716E /* ViewController.m */; };
+		81B985781F3B30C50043716E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B985761F3B30C50043716E /* Main.storyboard */; };
+		81B9857A1F3B30C50043716E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B985791F3B30C50043716E /* Assets.xcassets */; };
+		81B9857D1F3B30C50043716E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B9857B1F3B30C50043716E /* LaunchScreen.storyboard */; };
+		81B985881F3B30C50043716E /* CollectLiveStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B985871F3B30C50043716E /* CollectLiveStreamTests.m */; };
+		81B985931F3B30C50043716E /* CollectLiveStreamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B985921F3B30C50043716E /* CollectLiveStreamUITests.m */; };
+		81B985AB1F3B313B0043716E /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B985A11F3B313B0043716E /* libavcodec.a */; };
+		81B985AC1F3B313B0043716E /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B985A21F3B313B0043716E /* libavdevice.a */; };
+		81B985AD1F3B313B0043716E /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B985A31F3B313B0043716E /* libavfilter.a */; };
+		81B985AE1F3B313B0043716E /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B985A41F3B313B0043716E /* libavformat.a */; };
+		81B985AF1F3B313B0043716E /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B985A51F3B313B0043716E /* libavutil.a */; };
+		81B985B01F3B313B0043716E /* libfaac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B985A61F3B313B0043716E /* libfaac.a */; };
+		81B985B11F3B313B0043716E /* libpostproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B985A71F3B313B0043716E /* libpostproc.a */; };
+		81B985B21F3B313B0043716E /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B985A81F3B313B0043716E /* libswresample.a */; };
+		81B985B31F3B313B0043716E /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B985A91F3B313B0043716E /* libswscale.a */; };
+		81B985B41F3B313B0043716E /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B985AA1F3B313B0043716E /* libx264.a */; };
+		81B985B91F3B33860043716E /* LiveStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B985B61F3B33860043716E /* LiveStreamViewController.m */; };
+		81B985BA1F3B33860043716E /* PushStreamManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B985B81F3B33860043716E /* PushStreamManage.m */; };
+		81B985BC1F3B348C0043716E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B985BB1F3B348C0043716E /* AVFoundation.framework */; };
+		81B985BE1F3B4B4B0043716E /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B985BD1F3B4B4B0043716E /* libz.1.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81B985841F3B30C50043716E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B985621F3B30C40043716E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B985691F3B30C40043716E;
+			remoteInfo = CollectLiveStream;
+		};
+		81B9858F1F3B30C50043716E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B985621F3B30C40043716E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B985691F3B30C40043716E;
+			remoteInfo = CollectLiveStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81B9856A1F3B30C40043716E /* CollectLiveStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectLiveStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B9856E1F3B30C50043716E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81B985701F3B30C50043716E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81B985711F3B30C50043716E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81B985731F3B30C50043716E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81B985741F3B30C50043716E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81B985771F3B30C50043716E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B985791F3B30C50043716E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81B9857C1F3B30C50043716E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B9857E1F3B30C50043716E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B985831F3B30C50043716E /* CollectLiveStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectLiveStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B985871F3B30C50043716E /* CollectLiveStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectLiveStreamTests.m; sourceTree = "<group>"; };
+		81B985891F3B30C50043716E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B9858E1F3B30C50043716E /* CollectLiveStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectLiveStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B985921F3B30C50043716E /* CollectLiveStreamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectLiveStreamUITests.m; sourceTree = "<group>"; };
+		81B985941F3B30C50043716E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B985A11F3B313B0043716E /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
+		81B985A21F3B313B0043716E /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavdevice.a; sourceTree = "<group>"; };
+		81B985A31F3B313B0043716E /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavfilter.a; sourceTree = "<group>"; };
+		81B985A41F3B313B0043716E /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavformat.a; sourceTree = "<group>"; };
+		81B985A51F3B313B0043716E /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
+		81B985A61F3B313B0043716E /* libfaac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfaac.a; sourceTree = "<group>"; };
+		81B985A71F3B313B0043716E /* libpostproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpostproc.a; sourceTree = "<group>"; };
+		81B985A81F3B313B0043716E /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
+		81B985A91F3B313B0043716E /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
+		81B985AA1F3B313B0043716E /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
+		81B985B51F3B33860043716E /* LiveStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveStreamViewController.h; sourceTree = "<group>"; };
+		81B985B61F3B33860043716E /* LiveStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveStreamViewController.m; sourceTree = "<group>"; };
+		81B985B71F3B33860043716E /* PushStreamManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushStreamManage.h; sourceTree = "<group>"; };
+		81B985B81F3B33860043716E /* PushStreamManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushStreamManage.m; sourceTree = "<group>"; };
+		81B985BB1F3B348C0043716E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		81B985BD1F3B4B4B0043716E /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81B985671F3B30C40043716E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B985BE1F3B4B4B0043716E /* libz.1.tbd in Frameworks */,
+				81B985BC1F3B348C0043716E /* AVFoundation.framework in Frameworks */,
+				81B985B21F3B313B0043716E /* libswresample.a in Frameworks */,
+				81B985AF1F3B313B0043716E /* libavutil.a in Frameworks */,
+				81B985B11F3B313B0043716E /* libpostproc.a in Frameworks */,
+				81B985AD1F3B313B0043716E /* libavfilter.a in Frameworks */,
+				81B985B01F3B313B0043716E /* libfaac.a in Frameworks */,
+				81B985AC1F3B313B0043716E /* libavdevice.a in Frameworks */,
+				81B985B31F3B313B0043716E /* libswscale.a in Frameworks */,
+				81B985B41F3B313B0043716E /* libx264.a in Frameworks */,
+				81B985AB1F3B313B0043716E /* libavcodec.a in Frameworks */,
+				81B985AE1F3B313B0043716E /* libavformat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B985801F3B30C50043716E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B9858B1F3B30C50043716E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81B985611F3B30C40043716E = {
+			isa = PBXGroup;
+			children = (
+				81B985BD1F3B4B4B0043716E /* libz.1.tbd */,
+				81B985BB1F3B348C0043716E /* AVFoundation.framework */,
+				81B9856C1F3B30C50043716E /* CollectLiveStream */,
+				81B985861F3B30C50043716E /* CollectLiveStreamTests */,
+				81B985911F3B30C50043716E /* CollectLiveStreamUITests */,
+				81B9856B1F3B30C40043716E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81B9856B1F3B30C40043716E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81B9856A1F3B30C40043716E /* CollectLiveStream.app */,
+				81B985831F3B30C50043716E /* CollectLiveStreamTests.xctest */,
+				81B9858E1F3B30C50043716E /* CollectLiveStreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81B9856C1F3B30C50043716E /* CollectLiveStream */ = {
+			isa = PBXGroup;
+			children = (
+				81B985B51F3B33860043716E /* LiveStreamViewController.h */,
+				81B985B61F3B33860043716E /* LiveStreamViewController.m */,
+				81B985B71F3B33860043716E /* PushStreamManage.h */,
+				81B985B81F3B33860043716E /* PushStreamManage.m */,
+				81B985A01F3B313B0043716E /* StaticState */,
+				81B985701F3B30C50043716E /* AppDelegate.h */,
+				81B985711F3B30C50043716E /* AppDelegate.m */,
+				81B985731F3B30C50043716E /* ViewController.h */,
+				81B985741F3B30C50043716E /* ViewController.m */,
+				81B985761F3B30C50043716E /* Main.storyboard */,
+				81B985791F3B30C50043716E /* Assets.xcassets */,
+				81B9857B1F3B30C50043716E /* LaunchScreen.storyboard */,
+				81B9857E1F3B30C50043716E /* Info.plist */,
+				81B9856D1F3B30C50043716E /* Supporting Files */,
+			);
+			path = CollectLiveStream;
+			sourceTree = "<group>";
+		};
+		81B9856D1F3B30C50043716E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81B9856E1F3B30C50043716E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81B985861F3B30C50043716E /* CollectLiveStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				81B985871F3B30C50043716E /* CollectLiveStreamTests.m */,
+				81B985891F3B30C50043716E /* Info.plist */,
+			);
+			path = CollectLiveStreamTests;
+			sourceTree = "<group>";
+		};
+		81B985911F3B30C50043716E /* CollectLiveStreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81B985921F3B30C50043716E /* CollectLiveStreamUITests.m */,
+				81B985941F3B30C50043716E /* Info.plist */,
+			);
+			path = CollectLiveStreamUITests;
+			sourceTree = "<group>";
+		};
+		81B985A01F3B313B0043716E /* StaticState */ = {
+			isa = PBXGroup;
+			children = (
+				81B985A11F3B313B0043716E /* libavcodec.a */,
+				81B985A21F3B313B0043716E /* libavdevice.a */,
+				81B985A31F3B313B0043716E /* libavfilter.a */,
+				81B985A41F3B313B0043716E /* libavformat.a */,
+				81B985A51F3B313B0043716E /* libavutil.a */,
+				81B985A61F3B313B0043716E /* libfaac.a */,
+				81B985A71F3B313B0043716E /* libpostproc.a */,
+				81B985A81F3B313B0043716E /* libswresample.a */,
+				81B985A91F3B313B0043716E /* libswscale.a */,
+				81B985AA1F3B313B0043716E /* libx264.a */,
+			);
+			path = StaticState;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81B985691F3B30C40043716E /* CollectLiveStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B985971F3B30C50043716E /* Build configuration list for PBXNativeTarget "CollectLiveStream" */;
+			buildPhases = (
+				81B985661F3B30C40043716E /* Sources */,
+				81B985671F3B30C40043716E /* Frameworks */,
+				81B985681F3B30C40043716E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectLiveStream;
+			productName = CollectLiveStream;
+			productReference = 81B9856A1F3B30C40043716E /* CollectLiveStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81B985821F3B30C50043716E /* CollectLiveStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B9859A1F3B30C50043716E /* Build configuration list for PBXNativeTarget "CollectLiveStreamTests" */;
+			buildPhases = (
+				81B9857F1F3B30C50043716E /* Sources */,
+				81B985801F3B30C50043716E /* Frameworks */,
+				81B985811F3B30C50043716E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B985851F3B30C50043716E /* PBXTargetDependency */,
+			);
+			name = CollectLiveStreamTests;
+			productName = CollectLiveStreamTests;
+			productReference = 81B985831F3B30C50043716E /* CollectLiveStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81B9858D1F3B30C50043716E /* CollectLiveStreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B9859D1F3B30C50043716E /* Build configuration list for PBXNativeTarget "CollectLiveStreamUITests" */;
+			buildPhases = (
+				81B9858A1F3B30C50043716E /* Sources */,
+				81B9858B1F3B30C50043716E /* Frameworks */,
+				81B9858C1F3B30C50043716E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B985901F3B30C50043716E /* PBXTargetDependency */,
+			);
+			name = CollectLiveStreamUITests;
+			productName = CollectLiveStreamUITests;
+			productReference = 81B9858E1F3B30C50043716E /* CollectLiveStreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81B985621F3B30C40043716E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YC_Z;
+				TargetAttributes = {
+					81B985691F3B30C40043716E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					81B985821F3B30C50043716E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 81B985691F3B30C40043716E;
+					};
+					81B9858D1F3B30C50043716E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 81B985691F3B30C40043716E;
+					};
+				};
+			};
+			buildConfigurationList = 81B985651F3B30C40043716E /* Build configuration list for PBXProject "CollectLiveStream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81B985611F3B30C40043716E;
+			productRefGroup = 81B9856B1F3B30C40043716E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81B985691F3B30C40043716E /* CollectLiveStream */,
+				81B985821F3B30C50043716E /* CollectLiveStreamTests */,
+				81B9858D1F3B30C50043716E /* CollectLiveStreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81B985681F3B30C40043716E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B9857D1F3B30C50043716E /* LaunchScreen.storyboard in Resources */,
+				81B9857A1F3B30C50043716E /* Assets.xcassets in Resources */,
+				81B985781F3B30C50043716E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B985811F3B30C50043716E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B9858C1F3B30C50043716E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B985661F3B30C40043716E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B985BA1F3B33860043716E /* PushStreamManage.m in Sources */,
+				81B985B91F3B33860043716E /* LiveStreamViewController.m in Sources */,
+				81B985751F3B30C50043716E /* ViewController.m in Sources */,
+				81B985721F3B30C50043716E /* AppDelegate.m in Sources */,
+				81B9856F1F3B30C50043716E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B9857F1F3B30C50043716E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B985881F3B30C50043716E /* CollectLiveStreamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B9858A1F3B30C50043716E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B985931F3B30C50043716E /* CollectLiveStreamUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81B985851F3B30C50043716E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B985691F3B30C40043716E /* CollectLiveStream */;
+			targetProxy = 81B985841F3B30C50043716E /* PBXContainerItemProxy */;
+		};
+		81B985901F3B30C50043716E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B985691F3B30C40043716E /* CollectLiveStream */;
+			targetProxy = 81B9858F1F3B30C50043716E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81B985761F3B30C50043716E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B985771F3B30C50043716E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81B9857B1F3B30C50043716E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B9857C1F3B30C50043716E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81B985951F3B30C50043716E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81B985961F3B30C50043716E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B985981F3B30C50043716E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/include";
+				INFOPLIST_FILE = CollectLiveStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CollectLiveStream/StaticState",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ZYC.CollectLiveStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81B985991F3B30C50043716E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/include";
+				INFOPLIST_FILE = CollectLiveStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CollectLiveStream/StaticState",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZYC.CollectLiveStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81B9859B1F3B30C50043716E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CollectLiveStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZYC.CollectLiveStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollectLiveStream.app/CollectLiveStream";
+			};
+			name = Debug;
+		};
+		81B9859C1F3B30C50043716E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CollectLiveStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZYC.CollectLiveStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollectLiveStream.app/CollectLiveStream";
+			};
+			name = Release;
+		};
+		81B9859E1F3B30C50043716E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CollectLiveStreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZYC.CollectLiveStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CollectLiveStream;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		81B9859F1F3B30C50043716E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CollectLiveStreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZYC.CollectLiveStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CollectLiveStream;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81B985651F3B30C40043716E /* Build configuration list for PBXProject "CollectLiveStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B985951F3B30C50043716E /* Debug */,
+				81B985961F3B30C50043716E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B985971F3B30C50043716E /* Build configuration list for PBXNativeTarget "CollectLiveStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B985981F3B30C50043716E /* Debug */,
+				81B985991F3B30C50043716E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81B9859A1F3B30C50043716E /* Build configuration list for PBXNativeTarget "CollectLiveStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B9859B1F3B30C50043716E /* Debug */,
+				81B9859C1F3B30C50043716E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81B9859D1F3B30C50043716E /* Build configuration list for PBXNativeTarget "CollectLiveStreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B9859E1F3B30C50043716E /* Debug */,
+				81B9859F1F3B30C50043716E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81B985621F3B30C40043716E /* Project object */;
+}
